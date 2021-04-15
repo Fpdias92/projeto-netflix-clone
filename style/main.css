@@ -46,6 +46,7 @@ header nav a:hover{
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/zs-justice-2.jpg');
     height: 500px;
     background-size:cover;
+    margin-bottom: 50px;
     
     display:flex;
     flex-direction: column;
@@ -103,4 +104,22 @@ header nav a:hover{
 
 .carrosel-filmes{
     margin-top: 10px;
+}
+
+.categoria{
+    margin: 30px;       
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    cursor:pointer;
+    justify-content: space-between;
+}
+
+.titulo_c{
+    font-size: 20px;
+}
+
+.ver-tudo{
+    margin-left: 15px;
+    font-size: 12px;
 }
